@@ -120,3 +120,23 @@ public class CRUD {
 		while(choice!=5);
 	}
 }
+
+
+//Procedure to Update record
+
+/*create or replace procedure updateRecord(eid in number,ename varchar2,esalary number)
+is
+begin
+update CRUD set id=eid,name=ename,salary=esalary where id=eid;
+end;*/
+
+
+//Procedure to Delete record
+
+/*
+create or replace procedure deleteRecord(eid in number)
+is 
+begin
+delete from CRUD where id=eid;
+end;
+*/
